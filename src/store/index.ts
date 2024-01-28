@@ -8,9 +8,6 @@ const store = createStore({
     route,
     sidebar
   },
-  plugins: [createPersistedState({
-    storage: window.sessionStorage,
-  })]
 });
 
 export default store;

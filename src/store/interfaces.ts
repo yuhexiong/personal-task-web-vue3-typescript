@@ -12,20 +12,20 @@ export interface SidebarState {
 
 /* Mutation */
 export enum RouteMutationType {
-  SET = 'SET'
+  SET_ROUTE = 'SET_ROUTE'
 }
 
 export enum SidebarMutationType {
-  OPEN = 'OPEN',
-  CLOSE = 'CLOSE'
+  OPEN_SIDE_BAR = 'OPEN_SIDE_BAR',
+  CLOSE_SIDE_BAR = 'CLOSE_SIDE_BAR'
 }
 
 /* Action */
 export enum RouteActionType {
-  SET = 'SET'
+  ACTION_SET_ROUTE = 'ACTION_SET_ROUTE'
 }
 
 export enum SidebarActionType {
-  OPEN = 'OPEN',
-  CLOSE = 'CLOSE',
+  ACTION_OPEN_SIDE_BAR = 'ACTION_OPEN_SIDE_BAR',
+  ACTION_CLOSE_SIDE_BAR = 'ACTION_CLOSE_SIDE_BAR',
 }

@@ -6,19 +6,19 @@ const module: Module<SidebarState, any> = {
     isExpanded: false
   },
   mutations: {
-    [SidebarMutationType.OPEN](state) {
+    [SidebarMutationType.OPEN_SIDE_BAR](state) {
       state.isExpanded = true;
     },
-    [SidebarMutationType.CLOSE](state) {
+    [SidebarMutationType.CLOSE_SIDE_BAR](state) {
       state.isExpanded = false;
     }
   },
   actions: {
-    [SidebarActionType.OPEN]({ commit }) {
-      commit(SidebarMutationType.OPEN);
+    [SidebarActionType.ACTION_OPEN_SIDE_BAR]({ commit }) {
+      commit(SidebarMutationType.OPEN_SIDE_BAR);
     },
-    [SidebarActionType.CLOSE]({ commit }) {
-      commit(SidebarMutationType.CLOSE);
+    [SidebarActionType.ACTION_CLOSE_SIDE_BAR]({ commit }) {
+      commit(SidebarMutationType.CLOSE_SIDE_BAR);
     }
   }
 };

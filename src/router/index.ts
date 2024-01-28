@@ -28,7 +28,7 @@ const router = createRouter({
 });
 
 constantRoutes.forEach((route) => {
-  store.dispatch(RouteActionType.SET, route);
+  store.dispatch(RouteActionType.ACTION_SET_ROUTE, route);
 });
 
 export default router;

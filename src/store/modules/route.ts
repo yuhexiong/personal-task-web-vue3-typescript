@@ -7,13 +7,13 @@ const module: Module<RouteState, any> = {
     dynamicRoutes: []
   },
   mutations: {
-    [RouteMutationType.SET](state, route) {
+    [RouteMutationType.SET_ROUTE](state, route) {
       state.constantRoutes.push(route);
     }
   },
   actions: {
-    [RouteActionType.SET]({ commit }, route) {
-      commit(RouteMutationType.SET, route);
+    [RouteActionType.ACTION_SET_ROUTE]({ commit }, route) {
+      commit(RouteMutationType.SET_ROUTE, route);
     }
   },
   getters: {
