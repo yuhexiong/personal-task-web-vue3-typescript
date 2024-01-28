@@ -4,7 +4,7 @@ import ElementPlus from 'element-plus';
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
 
 import 'element-plus/dist/index.css';
-import './assets/style/main.scss';
+import './assets/main.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
