@@ -1,0 +1,37 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "playwright.config.*"
+  ],
+  "exclude": [
+    "src/**/__tests__/*"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "element-plus/global",
+      "node",
+      "jsdom",
+      "vite/client"
+    ],
+    "ignoreDeprecations": "5.0",
+    /* copy from @vue/tsconfig/tsconfig.web.json in order to fix the TypeError in tsconfig-loader */
+    "lib": [
+      "ES2016",
+      "DOM",
+      "DOM.Iterable"
+    ]
+  }
+}
