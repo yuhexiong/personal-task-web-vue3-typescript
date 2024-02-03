@@ -10,11 +10,9 @@
         />
       </li>
       <li>
-        <!-- <img
-          class="logo"
-          src="@/assets/image/logo.svg"
-          alt="logo"
-        > -->
+        <p>
+          事務紀錄系統
+        </p>
       </li>
     </ul>
   </nav>
@@ -53,7 +51,7 @@ body {
 
 nav {
   width: 100%;
-  height: 59px;
+  height: 65px;
   box-shadow:
     0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14),
@@ -74,6 +72,10 @@ nav {
       display: flex;
       align-items: center;
       padding: 0 10px;
+      p {
+        font-size: 18px;
+        font-weight: 600;
+      }
     }
   }
 }
@@ -86,11 +88,6 @@ nav {
   cursor: pointer;
   display: flex;
   align-items: center;
-}
-
-.logo {
-  width: 150px;
-  height: 100%;
 }
 
 .sidebar-controller {

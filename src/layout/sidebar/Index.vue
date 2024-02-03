@@ -12,7 +12,7 @@
           :default-active="activeMenu"
           router
         >
-          <SidebarItem
+          <sidebar-item
             v-for="route in accessibleRoutes"
             :key="route.path"
             :base-path="route.path"
@@ -64,6 +64,6 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 :deep(.el-drawer__body) {
-  padding: 0;
+  padding: 10px 0px 0px 0px;
 }
 </style>

@@ -31,7 +31,6 @@ export default defineComponent({
 <style lang="scss" scoped>
 .main-view {
   width: 100%;
-  overflow-y: scroll;
 }
 
 .main-view-wrapper {
