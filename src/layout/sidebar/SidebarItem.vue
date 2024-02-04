@@ -126,7 +126,7 @@ export default defineComponent({
   margin-right: 10px;
 }
 
-.el-sub-menu.is-active > :deep(.el-sub-menu__title) {
+.el-sub-menu.is-active > ::v-deep(.el-sub-menu__title) {
   color: var(--el-menu-active-color) !important;
   transition: color 0s;
 }

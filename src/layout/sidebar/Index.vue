@@ -63,7 +63,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-:deep(.el-drawer__body) {
+::v-deep(.el-drawer__body) {
   padding: 10px 0px 0px 0px;
 }
 </style>
