@@ -215,7 +215,7 @@ const handleUpdateTask = (uuid: string) => {
 
 main {
   width: 100%;
-  padding: 30px 30px 30px 30px;
+  padding: 20px 30px 30px 30px;
   display: flex;
   height: 100%;
 }

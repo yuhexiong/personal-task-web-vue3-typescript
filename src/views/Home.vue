@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="home-wrapper">
 
     <p>歡迎使用我們的事務紀錄系統！這是一個簡單而有效的工具，旨在協助您追蹤、管理和完成任務。不再忘記重要的事項，讓我們的系統成為您事務的得力助手。</p>
 
@@ -23,7 +23,7 @@ main {
   width: 100%;
 }
 
-.wrapper {
+.home-wrapper {
   padding: 60px 80px 80px 80px;
   p {
     margin-bottom: 10px;
