@@ -46,11 +46,11 @@ npm run dev
 
 ```
 
-![image](https://github.com/yuhexiong/personal-task-vue3-typescript/blob/main/image/home.png)
+![image](https://github.com/yuhexiong/personal-task-web-vue3-typescript/blob/main/image/home.png)
 
 ### sidebar
 
-![image](https://github.com/yuhexiong/personal-task-vue3-typescript/blob/main/image/sidebar.png)
+![image](https://github.com/yuhexiong/personal-task-web-vue3-typescript/blob/main/image/sidebar.png)
 
 
 ### task
@@ -62,11 +62,11 @@ npm run dev
 ```
 
 - After clicking task on left page, you can see info and edit it on right page.
-![image](https://github.com/yuhexiong/personal-task-vue3-typescript/blob/main/image/task.png)
+![image](https://github.com/yuhexiong/personal-task-web-vue3-typescript/blob/main/image/task.png)
 
 - Provide searching by date function
-![image](https://github.com/yuhexiong/personal-task-vue3-typescript/blob/main/image/task_searchDate.png)
+![image](https://github.com/yuhexiong/personal-task-web-vue3-typescript/blob/main/image/task_searchDate.png)
 
 - Click button to open create task dialog
-![image](https://github.com/yuhexiong/personal-task-vue3-typescript/blob/main/image/task_createTask.png)
+![image](https://github.com/yuhexiong/personal-task-web-vue3-typescript/blob/main/image/task_createTask.png)
 
