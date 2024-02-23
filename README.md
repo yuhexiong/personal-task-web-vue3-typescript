@@ -38,6 +38,12 @@ npm run dev
 
 ## Pages
 
+
+### sidebar
+
+![image](https://github.com/yuhexiong/personal-task-web-vue3-typescript/blob/main/image/sidebar.png)
+
+
 ### home
 
 ```bash
@@ -47,10 +53,6 @@ npm run dev
 ```
 
 ![image](https://github.com/yuhexiong/personal-task-web-vue3-typescript/blob/main/image/home.png)
-
-### sidebar
-
-![image](https://github.com/yuhexiong/personal-task-web-vue3-typescript/blob/main/image/sidebar.png)
 
 
 ### task
